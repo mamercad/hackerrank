@@ -2,8 +2,10 @@
 
 import pytest
 
+
 def solveMeFirst(a, b):
     return a + b
+
 
 def test_solveMeFirst():
     assert solveMeFirst(1, 1) == 2
