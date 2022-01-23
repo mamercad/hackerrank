@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-import pytest
-
 
 def staircase(n):
     rows = []

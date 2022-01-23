@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true
 
-import pytest
-
 
 def simpleArraySum(ar):
     sum = 0

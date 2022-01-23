@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
 # https://www.hackerrank.com/challenges/staircase/problem?isFullScreen=true
 
-import math
-import os
-import random
-import re
-import sys
-
 
 def staircase(n):
     rows = []

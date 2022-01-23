@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
 # https://www.hackerrank.com/challenges/plus-minus/problem?isFullScreen=true
 
-import math
-import os
-import random
-import re
-import sys
-
 
 def plusMinus(arr):
     total, positive, negative, zero = len(arr), 0, 0, 0

@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-import pytest
-
 
 def plusMinus(arr):
     total, positive, negative, zero = len(arr), 0, 0, 0
