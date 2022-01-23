@@ -6,6 +6,7 @@ import random
 import re
 import sys
 
+
 def plusMinus(arr):
     total, positive, negative, zero = len(arr), 0, 0, 0
     for a in arr:
@@ -15,9 +16,10 @@ def plusMinus(arr):
             zero += 0
         else:
             negative += 1
-    return positive/total, negative/total, zero/total
+    return positive / total, negative / total, zero / total
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     n = int(input().strip())
     arr = list(map(int, input().rstrip().split()))
     plusMinus(arr)
